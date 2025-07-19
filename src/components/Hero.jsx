@@ -1,5 +1,5 @@
 import { useRecoilState } from 'recoil';
-import { emailAtom } from '../state/emailatom';
+import { emailAtom } from '../state/emailAtom';
 
 export default function Hero() {
   const [email, setEmail] = useRecoilState(emailAtom);

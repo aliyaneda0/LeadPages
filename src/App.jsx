@@ -1,12 +1,15 @@
 
 import './index.css';
+import Hero from './components/Hero.jsx';
 
 function App() {
   return (
     <div>
-      {/* Your content here */}
-      <h1 className="text-2xl font-bold">Hello, HeroSecLeadPages!</h1>
-    </div>
+      <main>
+      <Hero />
+      </main>
+
+     </div>
   );
 }
 
