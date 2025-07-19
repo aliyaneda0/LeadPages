@@ -13,7 +13,7 @@ export default function Hero() {
         <p className="text-lg md:text-xl mb-8">
           Launch high-converting landing pages faster, generate qualified leads, and optimize your marketing efforts—all with one simple solution.
         </p>
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+        <div className="flex flex-col sm:flex-row gap-4 justify-center ">
           <input
             type="email"
             placeholder="Work email"
@@ -21,9 +21,9 @@ export default function Hero() {
             value={email}
             onChange={(e) => setEmail(e.target.value)}
           />
-          <button className="bg-lime-300 text-black font-semibold px-6 py-3 rounded-lg hover:bg-lime-400 transition">
+           <button className=" bg-lime-300 font-semibold text-black px-6 py-3 rounded-lg hover:bg-lime-400 transition sm:text-base px-4 sm:px-6">
             Start my trial →
-          </button>
+           </button>
         </div>
       </div>
     </section>
